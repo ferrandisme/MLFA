@@ -8,9 +8,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
-# TODO credit to https://www.kaggle.com/datasets/bhavikbb/password-strength-classifier-dataset in Readme for the dataset
-
-
 print("Started model preparation")
 data = pd.read_csv("data.csv", on_bad_lines="skip")
 # delete null values in any column
