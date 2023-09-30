@@ -4,4 +4,9 @@ app = FastAPI()
 
 @app.get("/status")
 async def status():
-    return "Ok"
+    return {"status": "Ok"}
+
+
+    
+    
+    
