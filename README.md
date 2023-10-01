@@ -45,3 +45,6 @@ To deploy this project run
   python -m uvicorn main:app --reload
 ```
 
+##### Warning
+
+Docker it's not 100% configured
