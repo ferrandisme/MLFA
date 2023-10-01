@@ -13,14 +13,13 @@ class PasswordStrength(BaseModel):
     strength : str
 
 
-@app.get("/status")
-async def status():
+@app.get("/")
+def home():
     return {"status": "Ok", "version" : version}
 
 
 @app.post("/checkPassword", response_model=PasswordStrength)
-async def status(password: Password):
-    print("CONTRASEÑA" , password)
+def passwordCheck(password: Password):
     return  PasswordStrength(strength=checkPassword(password.text))
 
     
