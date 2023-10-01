@@ -1,7 +1,5 @@
 import pickle
 from pathlib import Path
-from sklearn.feature_extraction.text import TfidfVectorizer
-from .token_utils import word
 
 BASE_DIR = Path(__file__).resolve(strict=True).parent
 
