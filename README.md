@@ -31,8 +31,6 @@ python -m password_model.train
 ## Features
 
 - Password Strenght ML model
-- [TODO] Other ML model
-- [TODO] MongoDB
 - Rest API with OpenAPI
 
 
